@@ -46,7 +46,5 @@ def normalize_text(text: str) -> str:
     """
     Har qanday matnni normalize qiladi:
     - Bosh va oxirdagi bo'shliqlarni olib tashlaydi
-    - Arab harflari bo'lsa normalize_arabic() dan o'tkazadi
     """
-    text = text.strip()
-    return normalize_arabic(text)
+    return text.strip()
